@@ -1,0 +1,103 @@
+h1 h2 h3 h4{
+    font-family: 'Playfair Display', serif;
+}
+
+/* about********************************************************************************************** */
+.joburg{
+    height: 30vh;
+    width: 100vw;
+}
+
+/* donate************************************************************************************************** */
+
+.qr{
+    font-size: 100px;
+}
+
+  /* form *********************************************************************************************/
+  button.sub-button{
+    border: 0.5px solid #DEDEDE;
+    background-color: lightgray;
+    color: black
+  }
+  
+  /* footer ***********************************************************************************************/
+.word-footer{
+    font-size: 20px; 
+  }
+  
+  #foot-icons{
+    border-radius: 50%;
+    border: solid 1px black;
+    font-size: 20px;
+    padding: 10px;
+    color:#292929;
+  }
+  
+  #bookface{
+    border-radius: 50%;
+    border: solid 1px black;
+    font-size: 20px;
+    padding: 10px 14px;
+    color:#292929;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+.joburg{
+    height: 40vh;
+    width: 100vw;
+}
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+}
