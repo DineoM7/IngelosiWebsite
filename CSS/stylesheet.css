@@ -1,6 +1,169 @@
-h1 h2 h3 h4{
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    margin: 0;
+    padding: 0;
+}
+html{
+    overflow-x: hidden;
+   
+    margin: 0;
+    padding: 0;  
+}
+
+h1, h2, h3{
     font-family: 'Playfair Display', serif;
 }
+p{
+    font-size: 18px;
+}
+
+
+/* Navbar for mobile*/
+.overlay{
+    height: 100%;
+    width: 100%;
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left:-100vw;
+    top: 0;
+    left: 0;
+    background-color: rgb(241, 234, 234);
+    color: rgb(12, 12, 12);
+    overflow: hidden; 
+    transition: 0.5s;
+  }
+
+.overlay-content ul{
+   list-style: none;
+ }
+
+  /* Position the content inside the overlay */
+.overlay-content {
+    position: relative;
+    width: 100%; 
+    text-align: justify; 
+    margin-top: 120px; 
+}
+
+  /* The navigation links inside the overlay */
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: black;
+    display: block; 
+    transition: 0.3s; 
+    font-size: 1.5em;
+}
+
+  /* Position the close button (top right corner) */ 
+.overlay .closebtn {
+    position: absolute;
+    right: 35px;
+    top: 2px;
+    font-weight: 300;
+    font-size: 30px;
+
+  }
+
+
+
+.social{
+    position: relative;
+    top: -6px;
+    border: 1px solid black;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 10px;
+    margin-left: 5px;
+}
+
+
+
+
+
+/* Scroll bar */
+body::-webkit-scrollbar {
+    width: 0.2em;
+  }
+  
+  body::-webkit-scrollbar-thumb {
+  background-color:  gray;
+  outline: 1px solid rgb(7, 7, 7);
+  
+  }
+  
+  .MediaDiv{
+      /* 
+          font-size: 1.5em; */
+          z-index: 20;
+          /* margin-left:-2vw; */
+      }
+  
+  
+
+  
+   /*media icons */
+  .icon{
+      display: inline-block;
+      font-size: 1.5em;
+      border: 1.5px solid white;
+      border-radius: 50%;
+      height: 40px;
+      width: 40px;
+      text-align: center;
+      padding-top: 2px;
+  }
+    /* media icons */
+    .icon.mobile{
+      float: right;
+      color: white;
+    }
+  
+   /* burger navbar */
+  .Bars{
+      position: relative;
+      top:25%;
+      font-size: 25px;
+  }
+
+  .mobile-only{
+      display: block;
+  }
+
+  .Desktop{
+      display: none;
+  }
+  
+  /* navbar */
+  .navbar-expand-lg{
+      color: black;
+      font-size: 1.5em;
+  }
+  
+  /* paragraph text for all the pages and sections */
+
+  
+  /* icons */
+  .icon a{
+      color: black;
+  }
+  .icon{
+      color: black;
+  }
+  a{
+      color: rgb(0, 0, 0);
+  }
+  
+  a:hover{
+      color: red;
+  }
 
 /* about********************************************************************************************** */
 .joburg{
@@ -90,11 +253,37 @@ h1 h2 h3 h4{
     height: 40vh;
     width: 100vw;
 }
+.navigation{
+    font-size: 1.3em;
+     text-transform: uppercase;
+}
+
+.navigation h1{
+    margin-left: 3em;
+    font-size: 0.6em;
+    text-transform: uppercase;
+}
+.logo{
+    width:80px;
+    height: auto;
+}
+.img-fluid{
+    height:auto;
+}
+.hero{
+    height:90vh;
+}
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-
+    .mobile-only{
+        display: none;
+    }
+    .Desktop{
+    display: block;
+    color: black;
+    }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
