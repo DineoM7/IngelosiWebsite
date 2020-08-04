@@ -178,10 +178,19 @@ body::-webkit-scrollbar {
 }
 
   /* form *********************************************************************************************/
-  button.sub-button{
+  /* button.sub-button{
     border: 0.5px solid #DEDEDE;
     background-color: lightgray;
     color: black
+  } */
+  button{
+    text-decoration: none;
+    border: 0.5px solid red;
+    border-radius: 5px;
+    color: white;
+    font-size: 1.3em;
+    background: red;
+    padding:6px;
   }
   
   /* footer ***********************************************************************************************/
