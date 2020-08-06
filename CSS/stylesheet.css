@@ -106,9 +106,6 @@ body::-webkit-scrollbar {
           /* margin-left:-2vw; */
       }
   
-  
-
-  
    /*media icons */
   .icon{
       display: inline-block;
@@ -177,18 +174,23 @@ body::-webkit-scrollbar {
 .carousel-indicators .active{
     background-color:black;
 }
+/* .carousel-control-prev{
+    background: red;
+    color: red;
+}
+.carousel-control-next{
+    background: red;
+} */
 /* donate************************************************************************************************** */
 
 .qr{
     font-size: 100px;
 }
+.gray{
+    background-color: #f4f4f4;
+}
 
   /* form *********************************************************************************************/
-  /* button.sub-button{
-    border: 0.5px solid #DEDEDE;
-    background-color: lightgray;
-    color: black
-  } */
   button{
     text-decoration: none;
     border: 0.5px solid red;
@@ -265,7 +267,7 @@ body::-webkit-scrollbar {
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
 .joburg{
-    height: 60vh !important;
+    height: 40vh !important;
     width: 100vw;
 }
 .navigation{
@@ -289,14 +291,16 @@ body::-webkit-scrollbar {
     height:90vh;
 }
 h1{
-    font-size: 2em;
-}
-h2{
     font-size: 4em;
 }
-h3{
+h2{
     font-size: 2em;
-    text-align: left;
+}
+
+.arrow{
+    font-size: 60px;
+    text-align: center;
+
 }
 }
 
