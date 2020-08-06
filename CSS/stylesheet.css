@@ -106,9 +106,6 @@ body::-webkit-scrollbar {
           /* margin-left:-2vw; */
       }
   
-  
-
-  
    /*media icons */
   .icon{
       display: inline-block;
@@ -181,6 +178,9 @@ body::-webkit-scrollbar {
 
 .qr{
     font-size: 100px;
+}
+.gray{
+    background-color: #f4f4f4;
 }
 
   /* form *********************************************************************************************/
@@ -289,14 +289,16 @@ body::-webkit-scrollbar {
     height:90vh;
 }
 h1{
-    font-size: 2em;
-}
-h2{
     font-size: 4em;
 }
-h3{
+h2{
     font-size: 2em;
-    text-align: left;
+}
+
+.arrow{
+    font-size: 60px;
+    text-align: center;
+
 }
 }
 
