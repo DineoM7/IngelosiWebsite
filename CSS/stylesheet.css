@@ -174,6 +174,13 @@ body::-webkit-scrollbar {
 .carousel-indicators .active{
     background-color:black;
 }
+/* .carousel-control-prev{
+    background: red;
+    color: red;
+}
+.carousel-control-next{
+    background: red;
+} */
 /* donate************************************************************************************************** */
 
 .qr{
@@ -184,11 +191,6 @@ body::-webkit-scrollbar {
 }
 
   /* form *********************************************************************************************/
-  /* button.sub-button{
-    border: 0.5px solid #DEDEDE;
-    background-color: lightgray;
-    color: black
-  } */
   button{
     text-decoration: none;
     border: 0.5px solid red;
@@ -265,7 +267,7 @@ body::-webkit-scrollbar {
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
 .joburg{
-    height: 60vh !important;
+    height: 40vh !important;
     width: 100vw;
 }
 .navigation{
