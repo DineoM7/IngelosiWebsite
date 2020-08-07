@@ -172,15 +172,17 @@ body::-webkit-scrollbar {
 
 /* projects***************************************************************************************************** */
 .carousel-indicators .active{
-    background-color:black;
+    background-color:gray;
 }
-/* .carousel-control-prev{
-    background: red;
-    color: red;
-}
-.carousel-control-next{
-    background: red;
-} */
+.carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    border: 2px solid;
+    display: inline-block !important;
+    
+  }
+
 /* donate************************************************************************************************** */
 
 .qr{
