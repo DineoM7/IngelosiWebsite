@@ -19,7 +19,7 @@ p{
     font-size: 18px;
 }
 h1{
-    font-size: 1.5em;
+    font-size: 2em;
 }
 h2{
     font-size: 1.2em;
@@ -27,6 +27,9 @@ h2{
 h3{
     font-size: 1.2em;
     text-align: center;
+}
+h4{
+    font-size: 1.2em;
 }
 /* Navbar for mobile*/
 .overlay{
@@ -163,6 +166,9 @@ body::-webkit-scrollbar {
   a:hover{
       color: red;
   }
+  #myNav{
+      display: none;
+  }
 
 /* about********************************************************************************************** */
 .joburg{
@@ -268,7 +274,8 @@ body::-webkit-scrollbar {
 @media only screen and (min-width: 768px) {
 .joburg{
     height: 40vh !important;
-    width: 100vw;
+    width: 93vw;
+
 }
 .navigation{
     font-size: 1.3em;
@@ -288,7 +295,7 @@ body::-webkit-scrollbar {
     height:auto;
 }
 .hero{
-    height:90vh;
+    height:100vh;
 }
 h1{
     font-size: 4em;
