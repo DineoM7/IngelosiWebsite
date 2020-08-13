@@ -188,6 +188,9 @@ body::-webkit-scrollbar {
     display: inline-block !important;
     
   }
+  .email{
+      text-decoration-line: underline;
+  }
 
 /* donate************************************************************************************************** */
 
