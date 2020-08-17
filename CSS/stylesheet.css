@@ -192,6 +192,14 @@ body::-webkit-scrollbar {
       text-decoration-line: underline;
   }
 
+  .pro{
+      width: 90%;
+  }
+
+  .can{
+      width: 90%;
+  }
+
 /* donate************************************************************************************************** */
 
 .qr{
@@ -231,6 +239,10 @@ body::-webkit-scrollbar {
     font-size: 20px;
     padding: 10px 14px;
     color:#292929;
+  }
+
+  .facebook{
+      color: white;
   }
 
 /* Extra small devices (phones, 600px and down) */
