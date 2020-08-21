@@ -5,20 +5,7 @@ function openNav() {
 function closeNav() {
   document.getElementById("myNav").style.display = "none";
 }
-//Blinking text in the landingn page******************************************************************************************
 
-var blink_speed = 500;
-var wordArray = ['Empowerment', 'Thuthuka', 'Matlafatsa','Giving','Inspiration','innovation'];
-var count=0;
-var t = setInterval(function () {
-    var ele = document.getElementById('text');
-
-    ele.innerHTML = wordArray[count++];
-
-   if(count===wordArray.length)
-     count=0;
-
-}, blink_speed);
 
 // Carousel indicators*********************************************************************************************************
   
