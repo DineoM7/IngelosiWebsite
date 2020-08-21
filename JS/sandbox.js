@@ -6,6 +6,7 @@ function closeNav() {
   document.getElementById("myNav").style.display = "none";
 }
 
+
 // Carousel indicators*********************************************************************************************************
   
 $(document).ready(function(){
